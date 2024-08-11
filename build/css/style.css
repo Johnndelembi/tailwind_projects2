@@ -685,6 +685,10 @@ video {
   align-items: center;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
 .justify-between {
   justify-content: space-between;
 }
@@ -785,6 +789,10 @@ video {
 
 .bg-\[url\(\'\/build\/img\/hero5\.jpeg\'\)\] {
   background-image: url('/build/img/hero5.jpeg');
+}
+
+.bg-\[url\(\'\/build\/img\/hero3\.jpeg\'\)\] {
+  background-image: url('/build/img/hero3.jpeg');
 }
 
 .from-gray-500 {
@@ -968,6 +976,11 @@ video {
   background-color: rgb(22 163 74 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-gray-900:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(17 24 39 / var(--tw-bg-opacity));
+}
+
 .hover\:text-black:hover {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
@@ -1045,8 +1058,16 @@ video {
     scroll-behavior: smooth;
   }
 
+  .md\:bg-\[url\(\'\/build\/img\/hero4\.jpeg\'\)\] {
+    background-image: url('/build/img/hero4.jpeg');
+  }
+
   .md\:text-left {
     text-align: left;
+  }
+
+  .md\:text-right {
+    text-align: right;
   }
 
   .md\:text-4xl {
